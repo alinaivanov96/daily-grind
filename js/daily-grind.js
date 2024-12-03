@@ -45,12 +45,12 @@ switch(myDay){
     case 0:
         today = "Sunday";
         coffee = {
-            name: "Matcha Latte",
-            pic: "images/matcha-latte.jpg",
-            alt: "A pic of a matcha latte",
+            name: "Mocha",
+            pic: "images/mocha.jpg",
+            alt: "A pic of a mocha",
             color: "green",
             day: "Sunday",
-            desc: `A creamy, vibrant green tea latte made with matcha powder and steamed milk. Packed with antioxidants and offering a gentle caffeine boost, it's the perfect drink to enjoy on a relaxed Sunday!`
+            desc: `A luscious coffee drink blending rich espresso, velvety steamed milk, and decadent chocolate syrup, often topped with whipped cream for a sweet and satisfying experience!`
         };
     break;
         
@@ -62,7 +62,7 @@ switch(myDay){
             name: "Cold Brew",
             pic: "images/cold-brew.jpg",
             alt: "A pic of a cold brew",
-            color: "brown",
+            color: "black",
             day: "Monday",
             desc: `A smooth, bold, and refreshing coffee brewed with cold water over a long period. Known for its less acidic taste and natural sweetness, it's perfect for starting the week energized!`
         };
@@ -71,12 +71,12 @@ switch(myDay){
     case 2:
         today = "Tuesday";
         coffee = {
-            name: "Cappuccino",
-            pic: "images/cappuccino.jpg",
-            alt: "A pic of a cappuccino",
+            name: "Frappaccino",
+            pic: "images/frappaccino.jpg",
+            alt: "A pic of a frappaccino",
             color: "beige",
             day: "Monday",
-            desc: `A classic Italian coffee made with equal parts espresso, steamed milk, and velvety layer of foam on top. It's rich an creamy, perfect for a cozy and indulgent midweek morning!`
+            desc: `A blended iced coffee drink, often combined with milk, flavors, and topped with whipped cream. Sweet and refreshing, it's a treat for warm days!`
         };
     break;
 
@@ -96,36 +96,36 @@ switch(myDay){
     case 4:
         today = "Thursday";
         coffee = {
-            name: "Flat White",
-            pic: "images/flat-white.jpg",
-            alt: "A pic of a flat white",
-            color: "ivory",
+            name: "Drip",
+            pic: "images/drip.jpg",
+            alt: "A pic of a drip",
+            color: "brown",
             day: "Thursday",
-            desc: `A smooth and silky coffee made with espresso and micro-foamed milk. The flat white is sloghtly stronger than a latte and ideal for those seeking a balanced yet rich coffee flavor!`
+            desc: `A simple, classic coffee made by brewing hot water through ground coffee beans. It's a straightforward and comforting staple for any coffee lover!`
         };
     break;
 
     case 5:
         today = "Friday";
         coffee = {
-            name: "Mocha",
-            pic: "images/mocha.jpg",
-            alt: "A pic of a mocha",
-            color: "brown",
+            name: "Caramel Latte",
+            pic: "images/caramel-latte.jpg",
+            alt: "A pic of a caramel latte",
+            color: "ivory",
             day: "Friday",
-            desc: `A chocolate lover's coffee dream! This beverage blends espresso, steamed milk, and rich chocolate syrup, topped with whipped cream for an indulgent end to the workweek!`
+            desc: `A creamy espresso-based drink combined with steamed milk and sweet caramel syrup, topped with a delicate foam or whipped cream. It's a rich and indulgent choice!`
         }
     break;
 
     case 6:
         today = "Saturday";
         coffee = {
-            name: "Caramel Macchiato",
-            pic: "images/caramel-macchiato.jpg",
-            alt: "A pic of a caramel macchiato",
+            name: "Pumpkin Spice Latte",
+            pic: "images/pumpkin-spice-latte.jpg",
+            alt: "A pic of a pumpkin spice latte",
             color: "golden",
             day: "Saturday",
-            desc: `A layered coffee drink made with a base of steamed milk, topped with a rich espresso shot, and drizzled with sweet caramel syrup. It's both comforting and indulgent, perfect for a relaxed Saturday!`
+            desc: `A seasonal favorite blending espresso, steamed milk, pumpkin spice syrup, and warm spices like cinnamon and nutmeg. Perfect for autumn vibes!`
         }
     break;
         
